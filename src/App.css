@@ -1,0 +1,43 @@
+#root {
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.copyright {
+  color: #888;
+}
+
+.display {
+  position: relative;
+  grid-column: span 4;
+  height: 50px;
+  width: calc(100% - 20px);
+  border: none;
+  outline: none;
+  background-color: #f2be46;
+  border-radius: 10px;
+  text-align: right;
+  padding: 10px;
+  font-size: 2em;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.labelDisplay{
+  position: relative;
+  left: -134px;
+  top: 24px;
+  z-index: 99;
+}
+
+.botonIVA {
+  margin-top:20px;
+  background-color: #48b6ff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.25em;
+  font-family: 'Rajdhani',sans-serif;
+}
+
